@@ -1,0 +1,16 @@
+<div class="row">
+    <div class="col-3" *ngFor="let v of VehiclesListComponets">
+        <mat-card class="example-card">
+            <mat-card-header>
+                <div mat-card-avatar class="example-header-image"></div>
+                <mat-card-title>{{v.name}}</mat-card-title>
+            </mat-card-header>
+            <img mat-card-image [src]="getPhotoUrl(v.url)" alt="Photo of a Shiba Inu">
+            <mat-card-content>
+                <p>
+
+                </p>
+            </mat-card-content>
+        </mat-card>
+    </div>
+</div>
