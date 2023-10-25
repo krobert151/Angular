@@ -1,0 +1,9 @@
+<div class="card" style="width: 18rem;">
+    <img [src]="getImagenPerson()" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">{{person.name}}</h5>
+        <p class="card-text">Su peso es {{person.mass}}lb y su altura {{person.height}}Inch</p>
+        <p class="card-text">Género: {{person.gender}}</p>
+        <button class="btn btn-primary" (click)="viewPersonDetail()">Ver más</button>
+    </div>
+</div>
